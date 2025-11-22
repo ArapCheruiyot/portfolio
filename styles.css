@@ -106,3 +106,24 @@ section.active {
     display: block;
 }
  
+/* Chatbot iframe styling */
+.chatbot-frame {
+    width: 100%;
+    max-width: 900px;      /* You can change this */
+    height: 700px;         /* Good height */
+    border: none;
+    margin: 20px auto;
+    display: block;
+    border-radius: 12px;   /* Smooth round edges */
+    box-shadow: 0 0 25px rgba(0,0,0,0.15); /* Soft shadow */
+}
+
+/* If the iframe is in its own section */
+.assistant-section {
+    padding: 40px 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
