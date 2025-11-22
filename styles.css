@@ -135,3 +135,22 @@ section {
     margin-top: 20px;
 }
 
+/* WhatsApp Button Styling */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;  /* WhatsApp green */
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
