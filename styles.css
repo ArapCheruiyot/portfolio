@@ -115,3 +115,23 @@ section {
 .project li {
   margin-bottom: 5px;
 }
+.assistant-section {
+    margin-top: 40px;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chatbot-frame {
+    width: 100%;
+    min-height: 700px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.15);
+    margin-top: 20px;
+}
+
